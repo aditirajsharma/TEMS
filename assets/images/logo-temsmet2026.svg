@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="50 0 100 80" width="100" height="80" aria-label="IEEE TEMSMET 2026 Conference Emblem">
+  <g fill="none" stroke="#b0322c" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Academic Shield / Badge Outline -->
+    <path d="M 100,3 C 122,3 134,8 140,15 C 140,39 128,55 100,63 C 72,55 60,39 60,15 C 66,8 78,3 100,3 Z" stroke-width="2.8" />
+    
+    <!-- Open Book Motif inside shield -->
+    <path d="M 78,41 C 87,38 96,39 100,41 C 104,39 113,38 122,41 L 122,23 C 113,20 104,20 100,23 C 96,20 87,20 78,23 Z" stroke-width="2.4" />
+    <line x1="100" y1="23" x2="100" y2="41" stroke-width="2.4" />
+    
+    <!-- Circuit lines & nodes radiating upward from book -->
+    <line x1="100" y1="22" x2="100" y2="9" stroke-width="2.2" />
+    <circle cx="100" cy="8" r="3" fill="#b0322c" />
+    
+    <!-- Left circuit trace -->
+    <path d="M 89,21 L 89,12 L 81,12" stroke-width="2" />
+    <circle cx="79" cy="12" r="2.5" fill="#b0322c" />
+    
+    <!-- Right circuit trace -->
+    <path d="M 111,21 L 111,12 L 119,12" stroke-width="2" />
+    <circle cx="121" cy="12" r="2.5" fill="#b0322c" />
+
+    <!-- Accent dots -->
+    <circle cx="74" cy="29" r="1.8" fill="#b0322c" />
+    <circle cx="126" cy="29" r="1.8" fill="#b0322c" />
+  </g>
+  
+  <!-- Text Label "TEMSMET 2026" -->
+  <text x="100" y="77" text-anchor="middle" font-family="'Poppins', 'Inter', system-ui, sans-serif" font-size="13" font-weight="900" letter-spacing="0.8" fill="#b0322c">TEMSMET 2026</text>
+</svg>

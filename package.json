@@ -1,0 +1,22 @@
+{
+  "name": "ieee-temsmet-2026",
+  "version": "1.0.0",
+  "description": "Official website for IEEE TEMSMET 2026 Conference hosted by Galgotias University",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve .",
+    "dev": "serve ."
+  },
+  "keywords": [
+    "ieee",
+    "temsmet",
+    "conference",
+    "2026",
+    "galgotias-university"
+  ],
+  "author": "",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "serve": "^14.2.4"
+  }
+}

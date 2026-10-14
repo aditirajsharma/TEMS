@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="3 3 211 64" width="211" height="64" aria-label="IEEE Logo">
+  <g fill="#b0322c">
+    <!-- IEEE Diamond Emblem -->
+    <path d="M 35,4 L 66,35 L 35,66 L 4,35 Z" fill="#b0322c" />
+    <path d="M 35,8 L 62,35 L 35,62 L 8,35 Z" fill="#ffffff" />
+    <path d="M 35,11 L 59,35 L 35,59 L 11,35 Z" fill="#b0322c" />
+    
+    <!-- Inner Diamond / Compass Arrow / Coil motif in White -->
+    <path d="M 35,17 L 31,27 L 33.5,27 L 33.5,53 L 36.5,53 L 36.5,27 L 39,27 Z" fill="#ffffff" />
+    <ellipse cx="35" cy="35" rx="14" ry="7" fill="none" stroke="#ffffff" stroke-width="2.2" />
+    
+    <!-- IEEE Wordmark -->
+    <rect x="82" y="18" width="13" height="34" />
+    <path d="M 103,18 L 134,18 L 134,25.5 L 116,25.5 L 116,31.5 L 131,31.5 L 131,38.5 L 116,38.5 L 116,44.5 L 134,44.5 L 134,52 L 103,52 Z" />
+    <path d="M 142,18 L 173,18 L 173,25.5 L 155,25.5 L 155,31.5 L 170,31.5 L 170,38.5 L 155,38.5 L 155,44.5 L 173,44.5 L 173,52 L 142,52 Z" />
+    <path d="M 181,18 L 212,18 L 212,25.5 L 194,25.5 L 194,31.5 L 209,31.5 L 209,38.5 L 194,38.5 L 194,44.5 L 212,44.5 L 212,52 L 181,52 Z" />
+  </g>
+</svg>
