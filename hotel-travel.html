@@ -3,17 +3,18 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hotel & Travel | IEEE TEMSMET 2026 | Galgotias University</title>
-  <meta name="description" content="Hotel & Travel — 5th IEEE TEMSMET 2026, hosted by Galgotias University, Greater Noida. October 29–31, 2026." />
+  <title>Hotel & Travel | 2027 IEEE 6th International Conference on Technology, Engineering, Management for Societal Impact using Marketing, Entrepreneurship, and Talent | Galgotias University</title>
+  <meta name="description" content="Hotel & Travel — 2027 IEEE 6th International Conference on Technology, Engineering, Management for Societal Impact using Marketing, Entrepreneurship, and Talent. Conference Number: #74427. Date: 22-24 October 2027. Venue: Galgotias University." />
+    <!-- Google Fonts: Open Sans & Lato (Reference: https://www.ieee-tems.org/) -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&family=Noto+Serif+Devanagari:wght@600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
 
-  <!-- ============================================================
-       HEADER (Utility Bar + Title & Logos Area + Sticky Navigation)
+        <!-- ============================================================
+       HEADER (Utility Bar + Red Main Area + White Logo Strip + Sticky Nav)
   ============================================================ -->
   <header class="site-header" id="site-header" role="banner">
 
@@ -34,24 +35,21 @@
       </div>
     </div>
 
-    <!-- LAYER 2: Title + logo area -->
-    <div class="logo-row">
-      <div class="container logo-row-inner">
+    <!-- LAYER 2: Red Header Area (Conference Details + Search + IEEE TEMS Logo) -->
+    <div class="header-main-area">
+      <div class="container header-main-inner">
 
-        <!-- LEFT SIDE: Text block -->
+        <!-- LEFT: Conference title block (breathing room, 14px gaps, max-width 900px, duplicate conf number removed) -->
         <div class="header-title-block">
-          <a href="index.html" class="header-title-link" aria-label="IEEE TEMSMET 2026 Home">
-            <span class="header-title-l1">IEEE TEMSMET 2026</span>
-            <span class="header-title-l2">October 29-31, 2026 | <strong>A Hybrid Conference</strong></span>
-            <span class="header-title-l3">Galgotias University, Greater Noida</span>
-            <span class="header-title-l4">International Conference on Technology, Engineering, Management for Societal Impact</span>
+          <a href="index.html" class="header-title-link" aria-label="IEEE TEMSMET 2027 Home">
+            <span class="header-title-l1">IEEE TEMSMET 2027</span>
+            <span class="header-title-l2">22-24 October 2027 | <strong>Galgotias University</strong></span>
+            <span class="header-title-l4">2027 IEEE 6th International Conference on Technology, Engineering, Management for Societal Impact using Marketing, Entrepreneurship, and Talent</span>
           </a>
         </div>
 
-        <!-- RIGHT SIDE: Search box + Logos -->
+        <!-- RIGHT: Search Box + IEEE TEMS Logo (white transparent, 64-72px tall, clickable) -->
         <div class="header-right-block">
-
-          <!-- 1. Search box -->
           <form class="header-search" id="header-search-form" role="search" aria-label="Conference Search">
             <input
               type="search"
@@ -62,95 +60,54 @@
               autocomplete="off"
             />
             <button type="submit" class="header-search-btn" aria-label="Submit search">
-              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                 <circle cx="11" cy="11" r="8"></circle>
                 <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
               </svg>
             </button>
           </form>
 
-          <!-- Logos row -->
-          <div class="header-logos-wrap">
-
-            <!-- 2. IEEE logo -->
-            <a href="https://www.ieee.org/" target="_blank" rel="noopener" class="logo-link logo-ieee-wrap" aria-label="IEEE Global">
-              <img
-                src="assets/images/logo-ieee.svg"
-                alt="IEEE Logo"
-                width="120"
-                height="45"
-                class="header-logo-img logo-img-ieee"
-                onerror="this.onerror=null; this.outerHTML='<span class=\'logo-fallback\'>IEEE</span>';"
-              />
-            </a>
-
-            <!-- 3. IEEE TEMS logo -->
-            <a href="https://www.ieee-tems.org/" target="_blank" rel="noopener" class="logo-link logo-tems-wrap" aria-label="IEEE TEMS">
-              <img
-                src="assets/images/logo-tems.png"
-                alt="IEEE Technology and Engineering Management Society"
-                width="120"
-                height="45"
-                class="header-logo-img logo-img-tems"
-                onerror="this.onerror=null; this.outerHTML='<span class=\'logo-fallback\'>IEEE TEMS</span>';"
-              />
-            </a>
-
-            <!-- 4. Galgotias University logo with Sanskrit tagline -->
-            <a href="https://www.galgotiasuniversity.edu.in/" target="_blank" rel="noopener" class="logo-link logo-galgotias-wrap" aria-label="Galgotias University" title="Galgotias University">
-              <div class="logo-galgotias-col">
-                <img
-                  src="assets/images/logo-galgotias.png"
-                  alt="Galgotias University Logo"
-                  title="Galgotias University"
-                  width="75"
-                  height="68"
-                  class="header-logo-img logo-img-galgotias"
-                  onerror="this.onerror=null; this.outerHTML='<span class=\'logo-fallback\'>Galgotias University</span>';"
-                />
-                <span class="sanskrit-tagline">वसुधैव कुटुम्बकम्</span>
-              </div>
-            </a>
-
-            <!-- 5. IEEE Section Badge: IEEE UP Section (India) -->
-            <a href="http://www.ieeeup.org/" target="_blank" rel="noopener" class="logo-link logo-section-wrap" aria-label="IEEE UP Section (India)" title="IEEE UP Section (India)">
-              <img
-                src="assets/images/logo-ieee-up-section.png"
-                alt="IEEE UP Section (India) Logo"
-                title="IEEE UP Section (India)"
-                width="145"
-                height="50"
-                class="header-logo-img logo-img-section"
-                onerror="this.onerror=null; this.outerHTML='<span class=\'logo-fallback\'>IEEE UP Section (India)</span>';"
-              />
-            </a>
-
-            <!-- 6. TEMSMET 2026 emblem -->
-            <a href="index.html" class="logo-link logo-temsmet-wrap" aria-label="IEEE TEMSMET 2026 Emblem">
-              <img
-                src="assets/images/logo-temsmet2026.svg"
-                alt="IEEE TEMSMET 2026 Emblem"
-                width="110"
-                height="55"
-                class="header-logo-img logo-img-emblem"
-                onerror="this.onerror=null; this.outerHTML='<span class=\'logo-fallback\'>TEMSMET 2026</span>';"
-              />
-            </a>
-
-          </div>
+          <!-- IEEE TEMS Logo: white, transparent, 68px tall, clickable to https://www.ieee-tems.org/ in a new tab -->
+          <a href="https://www.ieee-tems.org/" target="_blank" rel="noopener noreferrer" class="logo-link logo-tems-link" aria-label="IEEE Technology and Engineering Management Society" title="IEEE Technology and Engineering Management Society">
+            <img
+              src="assets/images/tems-logo-transparent.png"
+              alt="IEEE Technology and Engineering Management Society"
+              class="header-logo-tems"
+            />
+          </a>
         </div>
 
       </div>
     </div>
 
-    <!-- LAYER 3: Main navigation bar (Sticky) -->
+    <!-- LAYER 3: Clean White Logo Strip directly above navigation bar (Galgotias & IEEE transparent logos) -->
+    <div class="white-logo-strip">
+      <div class="container white-logo-strip-inner">
+        <a href="https://www.galgotiasuniversity.edu.in/" target="_blank" rel="noopener noreferrer" class="logo-link" aria-label="Galgotias University" title="Galgotias University">
+          <img
+            src="assets/images/galgotias-logo-transparent.png"
+            alt="Galgotias University Logo"
+            class="strip-logo-img strip-logo-galgotias"
+          />
+        </a>
+        <a href="https://www.ieee.org/" target="_blank" rel="noopener noreferrer" class="logo-link" aria-label="IEEE" title="IEEE">
+          <img
+            src="assets/images/ieee-logo-transparent.png"
+            alt="IEEE Logo"
+            class="strip-logo-img strip-logo-ieee"
+          />
+        </a>
+      </div>
+    </div>
+
+    <!-- LAYER 4: Sticky Navigation Bar -->
     <div class="main-nav-bar" id="main-nav-bar">
       <div class="container main-nav-inner">
 
-        <!-- Mobile header row inside navbar -->
+        <!-- Mobile header hamburger toggle -->
         <div class="mobile-nav-header">
-          <a href="index.html" class="nav-brand-mobile" aria-label="IEEE TEMSMET 2026 Home">
-            <span class="nav-brand-title">IEEE TEMSMET 2026</span>
+          <a href="index.html" class="nav-brand-mobile" aria-label="IEEE TEMSMET 2027 Home">
+            <span class="nav-brand-title">IEEE TEMSMET 2027</span>
           </a>
           <button class="hamburger" id="hamburger-btn" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="mobile-menu">
             <span class="hamburger-line"></span>
@@ -159,7 +116,7 @@
           </button>
         </div>
 
-        <!-- Desktop Navigation Items -->
+        <!-- Horizontal menu across desktop -->
         <nav class="desktop-nav" aria-label="Main Navigation">
           <ul class="nav-list">
             <li class="nav-item"><a class="nav-link" href="index.html">HOME</a></li>
@@ -190,8 +147,8 @@
             <li class="nav-item"><a class="nav-link active" href="hotel-travel.html">HOTEL &amp; TRAVEL</a></li>
             <li class="nav-item"><a class="nav-link" href="sponsorships.html">SPONSORSHIPS</a></li>
             <li class="nav-item"><a class="nav-link" href="contact-us.html">CONTACT US</a></li>
-            <!-- TODO: Replace "#" with the actual submission system URL (e.g. EDAS / Microsoft CMT / EasyChair) -->
-            <li class="nav-item"><a class="nav-link nav-link-submit" href="#" target="_blank" rel="noopener noreferrer">SUBMIT PAPER</a></li>
+            <!-- Highlighted button at the far right end of the menu -->
+            <li class="nav-item nav-item-cta"><a class="nav-link nav-link-submit" href="#" target="_blank" rel="noopener noreferrer">SUBMIT PAPER</a></li>
           </ul>
         </nav>
 
@@ -224,7 +181,6 @@
           <li><a class="mobile-nav-link active" href="hotel-travel.html">HOTEL &amp; TRAVEL</a></li>
           <li><a class="mobile-nav-link" href="sponsorships.html">SPONSORSHIPS</a></li>
           <li><a class="mobile-nav-link" href="contact-us.html">CONTACT US</a></li>
-          <!-- TODO: Replace "#" with the actual submission system URL (e.g. EDAS / Microsoft CMT / EasyChair) -->
           <li><a class="mobile-nav-link nav-link-submit" href="#" target="_blank" rel="noopener noreferrer">SUBMIT PAPER</a></li>
         </ul>
       </nav>
@@ -235,9 +191,9 @@
   <main>
     <section class="page-banner">
       <div class="container page-banner-inner">
-        <span class="page-banner-sub">IEEE TEMSMET 2026</span>
+        <span class="page-banner-sub">2027 IEEE 6th International Conference on Technology, Engineering, Management for Societal Impact using Marketing, Entrepreneurship, and Talent</span>
         <h1 class="page-banner-title">Hotel & Travel</h1>
-        <p class="page-banner-desc">International Conference on Technology, Engineering, Management for Societal Impact</p>
+        <p class="page-banner-desc">Conference Number: #74427 | Date: 22-24 October 2027 | Venue: Galgotias University</p>
       </div>
     </section>
 
@@ -258,27 +214,27 @@
     </div>
   </main>
 
-  <!-- ============================================================
+    <!-- ============================================================
        FOOTER
   ============================================================ -->
   <footer class="site-footer" role="contentinfo" aria-label="Site footer">
     <div class="container footer-inner">
 
       <div class="footer-brand">
-        <p class="footer-conf-name">IEEE TEMSMET 2026</p>
-        <p class="footer-desc">5th IEEE International Conference on Technology, Engineering &amp; Management for Societal Impact. Hosted by Galgotias University, Greater Noida, October 29–31, 2026.</p>
+        <p class="footer-conf-name">2027 IEEE 6th International Conference on Technology, Engineering, Management for Societal Impact using Marketing, Entrepreneurship, and Talent</p>
+        <p class="footer-desc">Conference Number: #74427 | Date: 22-24 October 2027 | Venue: Galgotias University</p>
       </div>
 
       <nav class="footer-links" aria-label="Footer quick links">
         <h4 class="footer-col-title">Quick Links</h4>
         <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#theme">Theme</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#host">Host University</a></li>
-          <li><a href="#structure">Structure</a></li>
-          <li><a href="#dates">Important Dates</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="index.html#home">Home</a></li>
+          <li><a href="index.html#theme">Theme</a></li>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#host">Host University</a></li>
+          <li><a href="index.html#structure">Structure</a></li>
+          <li><a href="index.html#dates">Important Dates</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
         </ul>
       </nav>
 
@@ -290,14 +246,14 @@
           <li><a href="https://ieeexplore.ieee.org/" target="_blank" rel="noopener noreferrer">IEEE Xplore</a></li>
           <li><a href="https://www.galgotiasuniversity.edu.in/" target="_blank" rel="noopener noreferrer">Galgotias University</a></li>
           <!-- TODO: Add submission portal link -->
-          <li><a href="#register">Submit a Paper</a></li>
+          <li><a href="#" target="_blank" rel="noopener noreferrer">Submit a Paper</a></li>
         </ul>
       </nav>
 
     </div>
 
     <div class="footer-bottom">
-      <p>© 2026 IEEE TEMSMET | Hosted by Galgotias University, Greater Noida, India. All rights reserved.</p>
+      <p>© 2027 IEEE. Hosted by Galgotias University. All rights reserved.</p>
       <p class="footer-disclaimer">The IEEE name and logo are registered trademarks of the Institute of Electrical and Electronics Engineers, Inc.</p>
     </div>
   </footer>

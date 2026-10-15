@@ -18,7 +18,7 @@
   <meta property="og:title"       content="2027 IEEE 6th International Conference on Technology, Engineering, Management for Societal Impact using Marketing, Entrepreneurship, and Talent" />
   <meta property="og:description" content="2027 IEEE 6th International Conference on Technology, Engineering, Management for Societal Impact using Marketing, Entrepreneurship, and Talent — 22-24 October 2027, Galgotias University." />
   <meta property="og:image"       content="assets/images/campus-bg.jpg" />
-  <meta property="og:url"         content="https://temsmet2026.example.com/" />
+  <meta property="og:url"         content="https://temsmet2027.example.com/" />
 
   <!-- Twitter Card -->
   <meta name="twitter:card"        content="summary_large_image" />
@@ -27,7 +27,7 @@
   <meta name="twitter:image"       content="assets/images/campus-bg.jpg" />
 
   <!-- Canonical -->
-  <link rel="canonical" href="https://temsmet2026.example.com/" />
+  <link rel="canonical" href="https://temsmet2027.example.com/" />
 
   <!-- Google Fonts: Open Sans & Lato (Reference: https://www.ieee-tems.org/) -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -42,8 +42,8 @@
 </head>
 <body>
 
-  <!-- ============================================================
-       HEADER (Utility Bar + Main Header with Logo on Left & Menu on Right)
+      <!-- ============================================================
+       HEADER (Utility Bar + Red Main Area + White Logo Strip + Sticky Nav)
   ============================================================ -->
   <header class="site-header" id="site-header" role="banner">
 
@@ -64,30 +64,80 @@
       </div>
     </div>
 
-    <!-- LAYER 2: Main header navbar (Logos on Left, Menu to the right, Highlighted Submit Button at far right) -->
-    <div class="main-nav-bar" id="main-nav-bar">
-      <div class="container main-nav-inner">
+    <!-- LAYER 2: Light Header (Conference Details + Search + 3 Logos in one clean row) -->
+    <div class="header-main-area">
+      <div class="container header-main-inner">
 
-        <!-- Logos on the LEFT (Task 1: exact attached images, height set, width auto) -->
-        <div class="nav-branding">
-          <a href="https://www.galgotiasuniversity.edu.in/" target="_blank" rel="noopener" class="logo-link" aria-label="Galgotias University" title="Galgotias University">
-            <img
-              src="assets/images/galgotias-logo.png"
-              alt="Galgotias University Logo"
-              class="nav-logo-img logo-img-galgotias"
-            />
-          </a>
-          <a href="https://www.ieee.org/" target="_blank" rel="noopener" class="logo-link" aria-label="IEEE" title="IEEE">
-            <img
-              src="assets/images/ieee-logo.png"
-              alt="IEEE Logo"
-              class="nav-logo-img logo-img-ieee"
-            />
+        <!-- LEFT: Conference title block -->
+        <div class="header-title-block">
+          <a href="index.html" class="header-title-link" aria-label="IEEE TEMSMET 2027 Home">
+            <span class="header-title-l1">IEEE TEMSMET 2027</span>
+            <span class="header-title-l2">22-24 October 2027 | Galgotias University</span>
+            <span class="header-title-l4">2027 IEEE 6th International Conference on Technology, Engineering, Management for Societal Impact using Marketing, Entrepreneurship, and Talent</span>
           </a>
         </div>
 
+        <!-- RIGHT: Search Box + 3 Logos in one row beside it -->
+        <div class="header-right-block">
+          <form class="header-search" id="header-search-form" role="search" aria-label="Conference Search">
+            <input
+              type="search"
+              id="header-search-input"
+              class="header-search-input"
+              placeholder="Search Conference..."
+              aria-label="Search Conference"
+              autocomplete="off"
+            />
+            <button type="submit" class="header-search-btn" aria-label="Submit search">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+          </form>
+
+          <div class="header-logos-row">
+            <!-- 1. IEEE TEMS Logo: white, inside theme-red rounded badge, clickable -->
+            <a href="https://www.ieee-tems.org/" target="_blank" rel="noopener noreferrer" class="logo-link logo-tems-badge" aria-label="IEEE Technology and Engineering Management Society" title="IEEE Technology and Engineering Management Society">
+              <img
+                src="assets/images/tems-logo-transparent.png"
+                alt="IEEE Technology and Engineering Management Society"
+                class="header-logo-tems"
+              />
+            </a>
+
+            <!-- 2. Galgotias University Logo: transparent, no box -->
+            <a href="https://www.galgotiasuniversity.edu.in/" target="_blank" rel="noopener noreferrer" class="logo-link" aria-label="Galgotias University" title="Galgotias University">
+              <img
+                src="assets/images/galgotias-logo-transparent.png"
+                alt="Galgotias University"
+                class="header-logo-img logo-img-galgotias"
+              />
+            </a>
+
+            <!-- 3. IEEE Logo: transparent, no box -->
+            <a href="https://www.ieee.org/" target="_blank" rel="noopener noreferrer" class="logo-link" aria-label="IEEE" title="IEEE">
+              <img
+                src="assets/images/ieee-logo-transparent.png"
+                alt="IEEE"
+                class="header-logo-img logo-img-ieee"
+              />
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- LAYER 4: Sticky Navigation Bar -->
+    <div class="main-nav-bar" id="main-nav-bar">
+      <div class="container main-nav-inner">
+
         <!-- Mobile header hamburger toggle -->
         <div class="mobile-nav-header">
+          <a href="index.html" class="nav-brand-mobile" aria-label="IEEE TEMSMET 2027 Home">
+            <span class="nav-brand-title">IEEE TEMSMET 2027</span>
+          </a>
           <button class="hamburger" id="hamburger-btn" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="mobile-menu">
             <span class="hamburger-line"></span>
             <span class="hamburger-line"></span>
@@ -95,7 +145,7 @@
           </button>
         </div>
 
-        <!-- Horizontal menu to the right of logos -->
+        <!-- Horizontal menu across desktop -->
         <nav class="desktop-nav" aria-label="Main Navigation">
           <ul class="nav-list">
             <li class="nav-item"><a class="nav-link active" href="index.html">HOME</a></li>
@@ -223,7 +273,7 @@
         <!-- CTAs -->
         <div class="hero-actions">
           <!-- TODO: Replace "#register" with the actual registration URL when available -->
-          <a href="#register" class="btn btn-primary-hero" aria-label="Register for IEEE TEMSMET 2026">Register Now</a>
+          <a href="#register" class="btn btn-primary-hero" aria-label="Register for 2027 IEEE 6th International Conference">Register Now</a>
           <a href="#dates" class="btn btn-outline-hero" aria-label="View Call for Papers details">Call for Papers</a>
         </div>
       </div>
@@ -241,7 +291,7 @@
           </div>
           <div class="qi-body">
             <strong>Dates</strong>
-            <span>October 29–31, 2026</span>
+            <span>22-24 October 2027</span>
           </div>
         </article>
 
@@ -251,7 +301,7 @@
           </div>
           <div class="qi-body">
             <strong>Venue</strong>
-            <span>Galgotias University, Greater Noida</span>
+            <span>Galgotias University</span>
           </div>
         </article>
 
@@ -311,7 +361,7 @@
     </section>
 
     <!-- ============================================================
-         SECTION 4 – ABOUT THE 5th IEEE TEMSMET
+         SECTION 4 – ABOUT THE 2027 IEEE 6th INTERNATIONAL CONFERENCE
     ============================================================ -->
     <section class="section section-tint" id="about" aria-labelledby="about-heading">
       <div class="container about-grid">
@@ -319,12 +369,12 @@
         <!-- Left: text -->
         <div class="about-text reveal-up">
           <span class="section-tag">About the Conference</span>
-          <h2 class="section-title" id="about-heading">About the 5th IEEE TEMSMET 2026</h2>
+          <h2 class="section-title" id="about-heading">About the Conference</h2>
 
-          <p>The 5th IEEE TEMSMET 2026 continues the prestigious global conference series of the Technology and Engineering Management Society (TEMS), serving as the annual flagship platform for thought leadership in technology, innovation, and engineering management. Since its inception in 2020, the IEEE TEMSMET series has consistently brought together researchers, practitioners, and professionals from around the world to explore the evolving intersections of technological advancement and strategic management practices.</p>
-          <p>The 5th edition embraces the transformative conference theme <strong>"Innovating for All: AI, Sustainability, and the Spirit of Vasudhaiva Kutumbakam"</strong>, reflecting a vision of inclusive innovation, responsible technological growth, and global unity. This edition will explore how technology and AI can drive sustainable development and humanity-centric values that are shaping the future of technology management.</p>
+          <p>The 2027 IEEE 6th International Conference on Technology, Engineering, Management for Societal Impact using Marketing, Entrepreneurship, and Talent continues the prestigious global conference series of the Technology and Engineering Management Society (TEMS), serving as the annual flagship platform for thought leadership in technology, innovation, and engineering management. Since its inception in 2020, the conference series has consistently brought together researchers, practitioners, and professionals from around the world to explore the evolving intersections of technological advancement and strategic management practices.</p>
+          <p>The 6th edition embraces the transformative conference theme <strong>"Innovating for All: AI, Sustainability, and the Spirit of Vasudhaiva Kutumbakam"</strong>, reflecting a vision of inclusive innovation, responsible technological growth, and global unity. This edition will explore how technology and AI can drive sustainable development and humanity-centric values that are shaping the future of technology management.</p>
           <p>The conference invites original research, case studies, and innovative solutions that present interdisciplinary approaches, novel frameworks, implementation models, ethical considerations, and global best practices. Contributions that demonstrate how innovation and AI can drive world-class technical education in industries, societies, and nations are especially encouraged.</p>
-          <p class="about-closing">The 5th IEEE TEMSMET 2026 aims to foster collaborative learning, inspire impactful research, and promote a shared commitment to advancing technology for the benefit of all — truly echoing the spirit of <em>Vasudhaiva Kutumbakam</em>.</p>
+          <p class="about-closing">The 2027 IEEE 6th International Conference aims to foster collaborative learning, inspire impactful research, and promote a shared commitment to advancing technology for the benefit of all — truly echoing the spirit of <em>Vasudhaiva Kutumbakam</em>.</p>
         </div>
 
         <!-- Right: benefit checklist card -->
@@ -564,8 +614,8 @@
             <div class="tl-dot" aria-hidden="true"></div>
             <article class="tl-card tl-card--highlight">
               <h3 class="tl-title">Conference Dates</h3>
-              <time class="tl-date" datetime="2026-10-29">October 29–31, 2026</time>
-              <p class="tl-note">Galgotias University, Greater Noida — Hybrid (In-Person + Online).</p>
+              <time class="tl-date" datetime="2027-10-22">22-24 October 2027</time>
+              <p class="tl-note">Galgotias University — Hybrid (In-Person + Online).</p>
             </article>
           </li>
 
@@ -581,10 +631,10 @@
       <div class="container register-banner-inner">
         <div>
           <h2 class="register-banner-title" id="register-heading">Be part of Innovating for All</h2>
-          <p class="register-banner-sub">Join researchers, engineers, and thought leaders from around the world at IEEE TEMSMET 2026.</p>
+          <p class="register-banner-sub">Join researchers, engineers, and thought leaders from around the world.</p>
         </div>
         <!-- TODO: Replace "#register" with the actual registration portal URL -->
-        <a href="#register" class="btn btn-register-cta" aria-label="Register now for IEEE TEMSMET 2026">Register Now</a>
+        <a href="#register" class="btn btn-register-cta" aria-label="Register now">Register Now</a>
       </div>
     </section>
 
@@ -631,9 +681,8 @@
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
               </span>
               <div>
-                <strong>Address</strong>
-                <!-- TODO: Verify exact postal address -->
-                <span>Galgotias University, Yamuna Expressway,<br>Greater Noida, Uttar Pradesh, India [VERIFY postal code]</span>
+                <strong>Venue</strong>
+                <span>Galgotias University</span>
               </div>
             </div>
 
@@ -643,7 +692,7 @@
               </span>
               <div>
                 <strong>Dates</strong>
-                <span>October 29–31, 2026 (IST)</span>
+                <span>22-24 October 2027</span>
               </div>
             </div>
           </address>
@@ -676,8 +725,8 @@
     <div class="container footer-inner">
 
       <div class="footer-brand">
-        <p class="footer-conf-name">IEEE TEMSMET 2026</p>
-        <p class="footer-desc">5th IEEE International Conference on Technology, Engineering &amp; Management for Societal Impact. Hosted by Galgotias University, Greater Noida, October 29–31, 2026.</p>
+        <p class="footer-conf-name">2027 IEEE 6th International Conference on Technology, Engineering, Management for Societal Impact using Marketing, Entrepreneurship, and Talent</p>
+        <p class="footer-desc">Conference Number: #74427 | Date: 22-24 October 2027 | Venue: Galgotias University</p>
       </div>
 
       <nav class="footer-links" aria-label="Footer quick links">
@@ -708,7 +757,7 @@
     </div>
 
     <div class="footer-bottom">
-      <p>© 2026 IEEE TEMSMET | Hosted by Galgotias University, Greater Noida, India. All rights reserved.</p>
+      <p>© 2027 IEEE. Hosted by Galgotias University. All rights reserved.</p>
       <p class="footer-disclaimer">The IEEE name and logo are registered trademarks of the Institute of Electrical and Electronics Engineers, Inc.</p>
     </div>
   </footer>
