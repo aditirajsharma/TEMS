@@ -1,5 +1,5 @@
 /**
- * IEEE TEMSMET 2026 — Main JavaScript
+ * 2027 IEEE 6th International Conference — Main JavaScript
  * ====================================================================
  * EDITABLE CONFIGURATION BLOCK — Change values here easily
  * ====================================================================
@@ -9,15 +9,15 @@
    CONFIGURATION: Edit these values to update conference info sitewide
    ────────────────────────────────────────────────────────────────── */
 const CONFIG = {
-  /** IEEE Record Number — replace XXXXX with actual number when assigned */
-  ieeeRecordNumber: 'XXXXX',
+  /** Conference Number — #74427 */
+  ieeeRecordNumber: '74427',
 
   /**
    * Conference start date/time in IST (UTC+5:30)
    * Format: 'YYYY-MM-DDTHH:mm:ss+05:30'
-   * Current setting: 29 Oct 2026, 09:00 IST
+   * Current setting: 22 Oct 2027, 09:00 IST
    */
-  conferenceStart: '2026-10-29T09:00:00+05:30',
+  conferenceStart: '2027-10-22T09:00:00+05:30',
 
   /**
    * Registration URL — replace '#register' with the actual URL
@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', () => {
 function initIeeeRecordPill() {
   const pill = document.getElementById('ieee-record-pill');
   if (!pill) return;
-  pill.textContent = `IEEE Record #${CONFIG.ieeeRecordNumber}`;
+  pill.textContent = `Conference Number: #${CONFIG.ieeeRecordNumber}`;
 }
 
 /* ──────────────────────────────────────────────────────────────────
